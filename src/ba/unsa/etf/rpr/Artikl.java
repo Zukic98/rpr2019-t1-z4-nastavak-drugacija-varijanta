@@ -11,6 +11,12 @@ public class Artikl {
         nazivArtikla =naziv;cijenaArtikla=cijena;kodArtikla=s;
     }
 
+    public Artikl(Artikl a){
+        nazivArtikla=a.getNaziv();
+        cijenaArtikla=a.getCijena();
+        kodArtikla=a.getKod();
+    }
+
     public String getNaziv() {
         return nazivArtikla;
     }

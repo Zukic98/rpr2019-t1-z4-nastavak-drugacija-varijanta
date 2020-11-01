@@ -17,11 +17,11 @@ public class Supermarket {
         for(int i = 0;i< listaArtikala.size();i++)
             if(kod.equals(listaArtikala.get(i).getKod())){
                 Artikl pomocni = new Artikl(listaArtikala.get(i));
+                listaArtikala.remove(i);
                 return pomocni;
             }
+        return null;
     }
-
-    public
 
 
 }
