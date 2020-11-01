@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a5f9a2-d417-4ce4-ba3c-5f6f69aeb123" name="Default Changelist" comment="Doraditi klase i otkloniti probleme">
+    <list default="true" id="74a5f9a2-d417-4ce4-ba3c-5f6f69aeb123" name="Default Changelist" comment="Poprilicno sredjen zadatak za tut2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
@@ -69,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603737276691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="supermarket zavrsen">
+      <created>1604244265483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604244265483</updated>
+    </task>
+    <task id="LOCAL-00003" summary="artikl dosta uradjen,preostala jos korpa da se sredi">
+      <created>1604244644304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604244644304</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,9 +99,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Doraditi klase i otkloniti probleme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doraditi klase i otkloniti probleme" />
+    <MESSAGE value="supermarket zavrsen" />
+    <MESSAGE value="artikl dosta uradjen,preostala jos korpa da se sredi" />
+    <MESSAGE value="Poprilicno sredjen zadatak za tut2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poprilicno sredjen zadatak za tut2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604263917959">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1604263917959" />
     <state x="605" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1604240737841">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -101,9 +121,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1603737288348" />
-    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1604239991113">
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1604263574826">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1604239991113" />
+    <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1604263574826" />
   </component>
 </project>

@@ -28,9 +28,4 @@ public class Artikl {
     public String getKod() {
         return kodArtikla;
     }
-
-    @Override
-    public boolean equals(Artikl artikl) {
-        return kodArtikla.equals(artikl.getKod());
-    }
 }

@@ -5,8 +5,10 @@ import java.util.ArrayList;
 public class Supermarket {
     ArrayList<Artikl> listaArtikala;
 
-    public void dodajArtikl(Artikl a){
+    public boolean dodajArtikl(Artikl a){
+        if(listaArtikala.size()==0)return false;
         listaArtikala.add(a);
+        return true;
     }
 
     public Artikl[] getArtikli() {
