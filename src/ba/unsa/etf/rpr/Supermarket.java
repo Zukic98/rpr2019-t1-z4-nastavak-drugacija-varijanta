@@ -3,12 +3,10 @@ package ba.unsa.etf.rpr;
 import java.util.ArrayList;
 
 public class Supermarket {
-    ArrayList<Artikl> listaArtikala;
+    private ArrayList<Artikl> listaArtikala = new ArrayList<>();
 
-    public boolean dodajArtikl(Artikl a){
-        if(listaArtikala.size()==0)return false;
+    public void dodajArtikl(Artikl a){
         listaArtikala.add(a);
-        return true;
     }
 
     public Artikl[] getArtikli() {
