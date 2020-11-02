@@ -1,23 +1,28 @@
 package ba.unsa.etf.rpr;
 
-import java.util.ArrayList;
-
 public class Supermarket {
-    private ArrayList<Artikl> listaArtikala = new ArrayList<>();
+    private Artikl[] nizArtikala = new Artikl[1000];
+    private int dimenzijaSupermarketa;
 
     public void dodajArtikl(Artikl a){
-        listaArtikala.add(a);
+        nizArtikala[dimenzijaSupermarketa] = a;
+        dimenzijaSupermarketa++;
     }
 
     public Artikl[] getArtikli() {
-        return listaArtikala.toArray(new Artikl[0]);
+        return nizArtikala;
     }
 
     public Artikl izbaciArtiklSaKodom(String kod) {
-        for(int i = 0;i< listaArtikala.size();i++)
-            if(kod.equals(listaArtikala.get(i).getKod())){
-                Artikl pomocni = new Artikl(listaArtikala.get(i));
-                listaArtikala.remove(i);
+        for(int i = 0;i<dimenzijaSupermarketa;i++)
+            if(kod.equals(nizArtikala[i].getKod())){
+                Artikl pomocni = new Artikl(nizArtikala[i]);
+                for(int j = i+1;j<dimenzijaSupermarketa;j++) {
+                    nizArtikala[i] = nizArtikala[j];
+                    i++;
+                }
+                dimenzijaSupermarketa--;
+                nizArtikala[dimenzijaSupermarketa-1] = null;
                 return pomocni;
             }
         return null;
