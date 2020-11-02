@@ -4,6 +4,10 @@ public class Supermarket {
     private Artikl[] nizArtikala = new Artikl[1000];
     private int dimenzijaSupermarketa;
 
+    public int getDimenzija(){
+        return dimenzijaSupermarketa;
+    }
+
     public void dodajArtikl(Artikl a){
         nizArtikala[dimenzijaSupermarketa] = a;
         dimenzijaSupermarketa++;

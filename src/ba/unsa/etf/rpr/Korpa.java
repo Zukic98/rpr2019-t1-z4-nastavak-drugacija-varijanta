@@ -22,7 +22,7 @@ public class Korpa {
                     i++;
                 }
                 nizArtikala[dimenzijaSupermarketa-1] = null;
-                dimenzijaSupermarketa--;
+                --dimenzijaSupermarketa;
                 return pomocni;
             }
         return null;
